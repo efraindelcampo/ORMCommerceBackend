@@ -1,20 +1,14 @@
-const { Model, DataTypes } = require('sequelize');
+const Sequelize = require("sequelize");
+require("dotenv").config();
 
-const sequelize = require('../config/connection.js');
-
-class Category extends Model {}
-
-Category.init(
+const sequelize = new Sequelize(
+  process.env.DB_NAME,
+  process.env.DB_USER,
+  process.env.DB_PASSWORD,
   {
-    // define columns
-  },
-  {
-    sequelize,
-    timestamps: false,
-    freezeTableName: true,
-    underscored: true,
-    modelName: 'category',
+    host: "localhost",
+    dialect: "postgres",
   }
 );
 
-module.exports = Category;
+module.exports = sequelize;

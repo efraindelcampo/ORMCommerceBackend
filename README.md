@@ -42,4 +42,4 @@ To run tests, run the following command:
 To see more projects, visit my GitHub profile at [efraindelcampo](https://github.com/efraindelcampo/).
 If you have any questions, please feel free to email me at efraindelcampo17@hotmail.com.
 
-Link to walkthrough video found here <>
+Link to walkthrough video found here <https://drive.google.com/file/d/1RlfuHs3zD0BzSNyj3pbBZIcB5Och-YsU/view?usp=drive_link>
